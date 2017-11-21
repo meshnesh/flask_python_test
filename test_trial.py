@@ -1,10 +1,10 @@
 import unittest
 
-from bank_account import BankAccount
+from user_account import Event
 
 class AccountBalanceTestCase(unittest.TestCase):
     def setUp(self):
-        self.account_yangu = BankAccount() #meaning is where my error is
+        self.account_yangu = Event() #meaning is where my error is
 
     def test_login(self):
         self.assertEqual(self.account_yangu.name, "Phil_johnes", msg='wrong username')
