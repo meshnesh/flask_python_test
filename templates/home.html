@@ -1,0 +1,9 @@
+{% extends 'layout.html'%}
+{% block body %}
+    <h1>Events</h1>
+    <ul class="collection">
+        {% for event in events %}
+        <a href="event/{{event.id}}" class="collection-item">{{event.name}}</a>
+        {%endfor%}
+    </ul>
+{% endblock %}
