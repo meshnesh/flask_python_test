@@ -2,7 +2,7 @@ import unittest
 
 from user_account import Event
 
-class AccountBalanceTestCase(unittest.TestCase):
+class EventLoginTestCase(unittest.TestCase):
     def setUp(self):
         self.account_yangu = Event() #meaning is where my error is
 
